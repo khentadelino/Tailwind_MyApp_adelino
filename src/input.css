@@ -72,11 +72,11 @@
     md:opacity-100 md:flex-row md:items-center md:top-auto md:h-auto md:static;
   }
   .headerNav ul.open {
-    @apply h-fit opacity-100 bg-white shadow-md w-full top-22 px-4 pb-3 duration-300;
+    @apply h-fit opacity-100 bg-white dark:bg-gray-900 shadow-md w-full top-22 px-4 pb-3 duration-300;
   }
 
   .toggleMenu span {
-    @apply inline-block w-5 h-0.5 rounded-xl bg-black/80
+    @apply inline-block w-5 h-0.5 rounded-xl bg-black/80 dark:bg-white/80
     md:hidden;
   }
 
