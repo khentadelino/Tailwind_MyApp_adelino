@@ -116,6 +116,6 @@
   }
 
   .btn--gray {
-    @apply border border-gray-300 hover:bg-gray-100 dark:hover:text-black;
+    @apply border border-gray-300 hover:bg-gray-100 hover:text-black/80;
   }
 }

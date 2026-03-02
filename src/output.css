@@ -540,10 +540,11 @@
         background-color: var(--color-gray-100);
       }
     }
-    &:where(.dark, .dark *) {
-      &:hover {
-        @media (hover: hover) {
-          color: var(--color-black);
+    &:hover {
+      @media (hover: hover) {
+        color: color-mix(in srgb, #000 80%, transparent);
+        @supports (color: color-mix(in lab, red, red)) {
+          color: color-mix(in oklab, var(--color-black) 80%, transparent);
         }
       }
     }
